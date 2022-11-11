@@ -1,0 +1,38 @@
+.layout-wrapper-top {
+  margin-top: 268px;
+  margin-left: 162px;
+  display: flex;
+  font: normal normal 400 18px/18px "VT323";
+  &-input {
+    height: 48px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffff;
+  }
+  &-button {
+    margin-top: 4px;
+    margin-right: 2px;
+  }
+  &-select {
+    height: 48px !important;
+    color: #808080;
+    &-option {
+      color: #000000;
+    }
+  }
+  &-icon {
+    width: 48px;
+    height: 48px !important;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+  }
+}
+
+.layout-wrapper-body {
+  margin-top: 31px;
+  border-top: 1px solid rgba(255, 255, 255);
+}

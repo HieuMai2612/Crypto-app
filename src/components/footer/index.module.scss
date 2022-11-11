@@ -1,0 +1,59 @@
+.footer-wrapper {
+  border: 1px solid #ffffff;
+  border-width: 1px 0 1px;
+  position: absolute;
+  width: 100%;
+  min-height: 468px;
+  &-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font: normal normal 400 36px/36px "VT323";
+      margin-bottom: 20px;
+      span {
+        color: #37b5dd;
+      }
+    }
+    p {
+      font: normal normal 400 18px/18px "VT323";
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 98px;
+    }
+    &-form {
+      margin-top: 120px;
+      .form-input {
+        width: 300px;
+        height: 54px;
+        font: normal normal 400 18px/18px "VT323";
+
+        border: 2px solid #6b6b6b;
+        &:focus-visible {
+          z-index: 1;
+          border-color: #6b6b6b;
+          box-shadow: 0 0 0 1px #6b6b6b;
+        }
+      }
+      .form-button {
+        width: 150px;
+        height: 54px;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 28px;
+        margin-left: 20px;
+        gap: 10px;
+        font: normal normal 400 18px/18px "VT323";
+        color: #000;
+        background-color: #37b5dd;
+      }
+    }
+    &-logo {
+      max-width: 440px;
+      max-height: 220px;
+      display: flex;
+      align-items: center;
+      margin-top: 98px;
+    }
+  }
+}

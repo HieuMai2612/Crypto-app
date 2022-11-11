@@ -1,0 +1,19 @@
+.header-wrapper {
+  margin-top: 80px;
+  margin-left: 162px;
+  h2 {
+    font: normal normal 400 24px/24px "VT323";
+    margin-bottom: 51px;
+  }
+  h1 {
+    font: normal normal 400 36px/36px "VT323";
+    margin-bottom: 15px;
+  }
+  p {
+    font: normal normal 400 18px/18px "VT323";
+    color: rgba(255, 255, 255, 0.5);
+    em {
+      color: #b91d1d;
+    }
+  }
+}
