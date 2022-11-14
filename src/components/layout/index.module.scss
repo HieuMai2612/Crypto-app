@@ -1,6 +1,9 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+
 .layout-wrapper-top {
   margin-top: 268px;
   margin-left: 162px;
+  margin-right: 162px;
   display: flex;
   font: normal normal 400 18px/18px "VT323";
   &-input {
@@ -14,13 +17,18 @@
   }
   &-button {
     margin-top: 4px;
-    margin-right: 2px;
+    right: 66px;
   }
+
   &-select {
     height: 48px !important;
+    width: 323px !important;
     color: #808080;
     &-option {
       color: #000000;
+    }
+    &:last-child {
+      width: 172px !important;
     }
   }
   &-icon {
@@ -33,6 +41,41 @@
 }
 
 .layout-wrapper-body {
-  margin-top: 31px;
   border-top: 1px solid rgba(255, 255, 255);
+
+  margin: 31px 162px;
+  Tr {
+    Th {
+      font: normal normal 400 15px/15px "VT323";
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+.layout-wrapper-footer {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around !important;
+  margin: 0 162px;
+  font: normal normal 400 18px/18px "VT323";
+
+  &-number {
+  }
+  &-select {
+    height: 48px !important;
+    color: #808080;
+    float: right;
+    width: 162px !important;
+    &-option {
+      color: #000000;
+    }
+  }
+  &-icon {
+    width: 48px;
+    height: 48px !important;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+  }
 }

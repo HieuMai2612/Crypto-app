@@ -9,3 +9,23 @@
 .chakra-select__icon-wrapper {
   height: 30px !important;
 }
+
+.pagination {
+  background-color: red;
+}
+.page-item {
+  background-color: red;
+  .page-link {
+    background-color: black !important;
+  }
+}
+
+.chakra-select__wrapper {
+  width: 323px !important;
+  margin: 0 20px !important;
+}
+
+.chakra-input {
+  width: 323px !important;
+  margin: 0 20px !important;
+}
